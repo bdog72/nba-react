@@ -317,6 +317,10 @@ footer {
   margin: 50px;
 }
 
+.home_poll p {
+  color: red;
+}
+
 .poll_container {
   display: -ms-flex;
   display: -webkit-flex;
@@ -325,6 +329,12 @@ footer {
 .poll_container .poll_item {
   padding: 20px;
   flex-grow: 1;
+}
+
+.poll_item img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: transform 0.3s ease-in-out;
 }
 
 .poll_container .poll_item img {

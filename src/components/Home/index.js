@@ -5,6 +5,8 @@ import HomeSlider from './slider';
 import HomeArticles from './articles';
 import Subscriptions from '../utils/subscribe';
 
+import Poll from '../utils/poll';
+
 export default class Home extends Component {
   //
   state = {
@@ -18,6 +20,7 @@ export default class Home extends Component {
         <Subscriptions />
         <div className="container">
           <HomeArticles />
+          <Poll />
         </div>
       </>
     );
